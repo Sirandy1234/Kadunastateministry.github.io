@@ -1,0 +1,88 @@
+body{
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Sans-Serif, Verdana;
+  display: flex;
+  background-color: #f1f1f1;
+}
+nav{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin:-10px;
+}
+form{
+  padding:30px;
+  margin: 150px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height:200%;
+  background: white;
+}
+p{
+  text-align: center;
+}
+.login{
+  font-size: 30px;
+}
+
+.sign{
+  color: grey;
+  font-size: 30px;
+}
+.private{
+  color: red;
+  font-size: 30px;
+}
+input{
+  width: 800px;
+  height: 60px;
+  border-radius: 10px;
+  background: #ddd;
+  font-size: 25px;
+}
+.password{
+  margin-right: 350px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.asterisk{
+  color: red;
+  font-size: 20px;
+}
+.forgot{
+  color: grey;
+  font-size: 30px;
+}
+@media only for screen and (min-width: 300px) {
+  /* For Mobile Phones*/{
+    width: 70%;
+  }
+}
+.btn{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.remember{
+  color: grey;
+  font-size: 30px;
+}
+input:hover{
+  color: grey;
+}
+button{
+  width:800px;
+  height: 60px;
+  font-size: 20px;
+  background: rgb(20 220 223);
+  border-radius: 10px;
+}
+.copy{
+  flex-grow: 5;
+  padding: 20px;
+  color: grey;
+  
+}
+
+
